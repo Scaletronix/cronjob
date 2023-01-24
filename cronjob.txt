@@ -1,0 +1,8 @@
+# m h  dom mon dow   command
+@reboot curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --version 6.0.13
+@reboot sudo apt-get install git
+@reboot git clone https://github.com/[username]/[repository-name].git
+@reboot cd [repository-name]
+@reboot dotnet restore
+@reboot dotnet build
+@reboot dotnet run
